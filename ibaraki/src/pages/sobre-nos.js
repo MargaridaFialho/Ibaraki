@@ -1,8 +1,12 @@
+import Top from '../components/top';
+
+import sushi1 from '../imgs/sushi1.png';
+
 const SobreNos = () => {
 	return (
-		<div>
-			<h1>Sobre Nós</h1>
-		</div>
+		<>
+			<Top pageTitle='SOBRE NÓS' imagePath={sushi1} />
+		</>
 	);
 };
 
