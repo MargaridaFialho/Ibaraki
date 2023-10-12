@@ -111,7 +111,7 @@ h2 {
 }
 
 .navbar-brand {
-	color: #f2f4ea;
+	color: #f2f4ea !important;
 }
 .navbar-brand:hover {
 	color: #d5d7cf;
@@ -269,6 +269,26 @@ img {
 	top: 10px;
 }
 
+/*Swiper*/
+
+.swiper {
+	width: 100% !important;
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.swiper-slide {
+	background-position: center !important;
+	background-size: cover !important;
+	width: 300px !important;
+	height: 300px !important;
+}
+
+.swiper-slide img {
+	display: block !important;
+	width: 100% !important;
+}
+
 /* Reservas */
 .col-form-label {
 	font-size: 1rem;
@@ -289,10 +309,22 @@ img {
 }
 
 /*Footer */
-footer {
+.footer-homepage {
+	z-index: 2;
 	width: 100%;
 	position: absolute;
 	bottom: 5%;
+}
+
+.footer-page {
+	z-index: 2;
+	width: 100%;
+	position: relative;
+	bottom: 50px;
+}
+
+.display-contents {
+	display: contents;
 }
 
 .footer-element {

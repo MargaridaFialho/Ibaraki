@@ -7,6 +7,7 @@ import carousel1 from '../imgs/carousel1.png';
 import carousel2 from '../imgs/carousel2.png';
 import carousel3 from '../imgs/carousel3.png';
 import Countdown from '../components/countdown';
+import Footer from '../components/footer';
 
 const Homepage = () => {
 	useEffect(() => {
@@ -53,6 +54,7 @@ const Homepage = () => {
 				</div>
 			</AwesomeSlider>
 			<Countdown day='14' month='12' year='2023'></Countdown>
+			<Footer/>
 		</>
 	);
 };

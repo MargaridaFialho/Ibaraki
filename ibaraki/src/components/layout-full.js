@@ -1,6 +1,6 @@
 import { Row, Col, Container } from 'react-bootstrap';
 
-function LayoutPage(props) {
+function LayoutFull(props) {
 	return (
 		<>
 			<section>
@@ -14,7 +14,7 @@ function LayoutPage(props) {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={10} className='offset-1 offset-lg-6 pt-1 py-5' lg={5}>
+						<Col col-10 offset-1 py-5>
 							{props.children}
 						</Col>
 					</Row>
@@ -24,4 +24,4 @@ function LayoutPage(props) {
 	);
 }
 
-export default LayoutPage;
+export default LayoutFull;
