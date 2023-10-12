@@ -1,11 +1,11 @@
-import Top from '../components/top';
+import LayoutPage from '../components/layout-page';
 
 import sushi3 from '../imgs/sushi3.png';
 
 const Contactos = () => {
 	return (
 		<>
-			<Top pageTitle='CONTACTOS' imagePath={sushi3} />
+			<LayoutPage pageTitle='CONTACTOS' imagePath={sushi3} />
 		</>
 	);
 };

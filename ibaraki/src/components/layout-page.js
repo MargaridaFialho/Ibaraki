@@ -1,6 +1,6 @@
 import { Row, Col, Container } from 'react-bootstrap';
 
-function Top(props) {
+function LayoutPage(props) {
 	return (
 		<>
 			<section>
@@ -19,4 +19,4 @@ function Top(props) {
 	);
 }
 
-export default Top;
+export default LayoutPage;

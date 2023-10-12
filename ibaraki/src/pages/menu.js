@@ -1,11 +1,11 @@
-import Top from '../components/top';
+import LayoutPage from '../components/layout-page';
 
 import sushi2 from '../imgs/sushi2.png';
 
 const Menu = () => {
 	return (
 		<>
-			<Top pageTitle='MENU' imagePath={sushi2} />
+			<LayoutPage pageTitle='MENU' imagePath={sushi2} />
 		</>
 	);
 };
