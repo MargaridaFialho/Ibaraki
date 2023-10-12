@@ -33,7 +33,7 @@ const Homepage = () => {
 			</div>
 			<div className='carousel-caption' data-src={carousel2}>
 				<h1>
-					<span className='light-text'>Um novo conceito</span>
+					<span className='light-text'>Uma experiência </span>
 					<span className='bold-text'> no Alentejo</span>
 				</h1>
 				<Button variant='primary' className='button-big'>
@@ -42,7 +42,7 @@ const Homepage = () => {
 			</div>
 			<div className='carousel-caption' data-src={carousel3}>
 				<h1>
-					<span className='light-text'>Um novo conceito</span>
+					<span className='light-text'>Sabores únicos </span>
 					<span className='bold-text'> no Alentejo</span>
 				</h1>
 				<Button variant='primary' className='button-big'>
