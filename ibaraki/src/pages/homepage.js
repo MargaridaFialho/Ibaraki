@@ -2,12 +2,12 @@ import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 import Button from 'react-bootstrap/Button';
 import { useEffect } from 'react';
+import Countdown from '../components/Countdown';
+import Footer from '../components/Footer';
 
 import carousel1 from '../imgs/carousel1.png';
 import carousel2 from '../imgs/carousel2.png';
 import carousel3 from '../imgs/carousel3.png';
-import Countdown from '../components/countdown';
-import Footer from '../components/footer';
 
 const Homepage = () => {
 	useEffect(() => {
@@ -24,37 +24,37 @@ const Homepage = () => {
 
 	return (
 		<>
-			<AwesomeSlider bullets={false} cssModule={AwesomeSliderStyles}>
-				<div className='carousel-caption' data-src={carousel1}>
+			<AwesomeSlider cssModule={AwesomeSliderStyles} bullets={false}>
+				<div className='carousel-caption slide-in' data-src={carousel1}>
 					<h1>
 						<span className='light-text'>Um novo conceito</span>
 						<span className='bold-text'> no Alentejo</span>
 					</h1>
-					<Button href='/reservas' variant='primary' className='button-big'>
+					<Button variant='primary' href='/reservas' type='button' className='button-big'>
 						Reservar
 					</Button>
 				</div>
 				<div className='carousel-caption' data-src={carousel2}>
 					<h1>
-						<span className='light-text'>Uma experiência </span>
+						<span className='light-text'>Um novo sabor</span>
 						<span className='bold-text'> no Alentejo</span>
 					</h1>
-					<Button href='/reservas' variant='primary' className='button-big'>
+					<Button variant='primary' href='/reservas' type='button' className='button-big'>
 						Reservar
 					</Button>
 				</div>
 				<div className='carousel-caption' data-src={carousel3}>
 					<h1>
-						<span className='light-text'>Sabores únicos </span>
+						<span className='light-text'>Uma novo essência</span>
 						<span className='bold-text'> no Alentejo</span>
 					</h1>
-					<Button href='/reservas' variant='primary' className='button-big'>
+					<Button variant='primary' href='/reservas' type='button' className='button-big'>
 						Reservar
 					</Button>
 				</div>
 			</AwesomeSlider>
-			<Countdown day='14' month='12' year='2023'></Countdown>
-			<Footer/>
+			<Countdown day={12} month={12} year={2023}></Countdown>
+			<Footer></Footer>
 		</>
 	);
 };

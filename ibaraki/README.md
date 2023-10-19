@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# IBARAKI
 
-## Available Scripts
+> Este projeto consiste na criação de um website para o restaurante de sushi “IBARAKI”, localizado em Montemor-o-Novo. O principal objetivo é proporcionar aos nossos clientes uma experiência, que reflita a qualidade e o sabor dos nossos pratos de sushi, juntamente com a paisagem alentejana.
+> Promover o restaurante e destacar os seus pontos fortes, apresentar o menu completo, incluindo opções com imagens, facilitar a reserva de mesas online e por fim, fornecer informações sobre a localização e abertura do restaurante (uma data com contagem decrescente para a abertura do restaurante na página principal).
+> Este projeto foi realizado no ambito do meu curso fullstack para o projeto de frontend.
 
-In the project directory, you can run:
+#
 
-### `npm start`
+## Opções Técnicas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> O website será desenvolvido com HTML, CSS e JavaScript para a interface do utilizador. É prioridade garantir uma aparência moderna e responsiva. Relativamente ao design do website, iremos ter a Homepage, Sobre Nós, Menu (e páginas detalhe), Reservas com formulário e Contactos com mapa.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Ferramentas e API’s Utilizadas
 
-### `npm test`
+- React-bootstrap, para os layouts;
+- React-awesome-slider, para o slider da homepage, e que pediu os seguintes:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Sass-loader
+2. Loader-runner
+3. Webpack
+4. React-scripts
 
-### `npm run build`
+- Swiper, para o slider da página menu;
+- React-datepicker, para o formulário de reservas;
+- React-leaflet, para mapa na página de contactos, o mapa é fornecido pelo OpenStreetMap;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Images
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Homepage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Homepage](/image/sample.webp 'Homepage')
 
-### `npm run eject`
+### Sobre nós
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Sobre nós](/image/sample.webp 'Sobre nós')
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Menu
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Menu](/image/sample.webp 'Menu')
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Menu detalhe 1
 
-## Learn More
+![Menu detalhe](/image/sample.webp 'Menu detalhe')
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Menu detalhe 2
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Menu detalhe](/image/sample.webp 'Menu detalhe')
 
-### Code Splitting
+### Menu detalhe 3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Menu detalhe](/image/sample.webp 'Menu detalhe')
 
-### Analyzing the Bundle Size
+### Reservas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Reservas](/image/sample.webp 'Reservas')
 
-### Making a Progressive Web App
+### Contactos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Contactos](/image/sample.webp 'Contactos')
 
-### Advanced Configuration
+## Melhorias Futuras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> Backoffice para edição de todas as páginas, sistema de entrega online para pedidos de take-away e entrega em casa, tradução do website para diversos idiomas para atrair um público mais amplo e sistema de avaliações/comentários para recolher feedback dos clientes.
 
-### Deployment
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+git clone
+npm install
+```
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##

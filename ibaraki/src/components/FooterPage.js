@@ -1,8 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
-function Footer() {
+function FooterPage() {
     return (
-        <footer className="footer-homepage">
+        <footer className="footer-page">
             <Container className="text-center">
                 <Row className="justify-content-center">
                     <a className="display-contents" href="https://www.facebook.com/ibaraki.rest" target="_blank" rel="noopener noreferrer">
@@ -20,4 +20,4 @@ function Footer() {
     );
   }
 
-export default Footer;
+export default FooterPage;

@@ -1,20 +1,18 @@
 import { Button } from 'react-bootstrap';
 
-import FooterPage from '../components/footer-page';
-import LayoutPage from '../components/layout-page';
+import FullpageLayout from '../components/FullpageLayout';
 
 import sushi1 from '../imgs/sushi1.png';
 
 const NoPage = () => {
 	return (
 		<>
-			<LayoutPage pageTitle='UPS!' imagePath={sushi1}>
+			<FullpageLayout imageUrl={sushi1} pageTitle={'UPS!'}>
 				<p>Esta página não existe!</p>
-				<Button href='/' variant='secondary' className="mb-5">
-					Voltar à homepage
+				<Button variant='primary' className='button-big' onClick={() => (window.location.href = '/')}>
+					Regressar à homepage
 				</Button>
-			</LayoutPage>
-			<FooterPage />
+			</FullpageLayout>
 		</>
 	);
 };
