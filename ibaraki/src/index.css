@@ -68,6 +68,10 @@ h2 {
 	font-family: Hatton700, 'Times New Roman', Times, serif;
 }
 
+.normal-text {
+	font-size: 1rem;
+}
+
 .btn-primary {
 	--bs-btn-color: #000;
 	--bs-btn-bg: #f2f4ea;
@@ -131,6 +135,10 @@ h2 {
 }
 .navbar-brand:hover {
 	color: #d5d7cf;
+}
+
+.brand-color {
+	color: #A18F7B;
 }
 
 .navbar-toggler, .navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus  {
@@ -468,4 +476,9 @@ img {
   
   .slide-in {
 	animation: slideInFromLeft 0.5s forwards;
+  }
+
+  .card {
+	background-color: #111;
+	outline: 1px solid #f2f4ea;
   }

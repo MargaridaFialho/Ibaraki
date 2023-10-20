@@ -15,50 +15,46 @@
 ## Ferramentas e API’s Utilizadas
 
 - React-bootstrap, para os layouts;
-- React-awesome-slider, para o slider da homepage, e que pediu os seguintes:
-
-1. Sass-loader
-2. Loader-runner
-3. Webpack
-4. React-scripts
-
+- Sass;
+- React-router-dom;
+- React-awesome-slider, para o slider da homepage;
 - Swiper, para o slider da página menu;
 - React-datepicker, para o formulário de reservas;
 - React-leaflet, para mapa na página de contactos, o mapa é fornecido pelo OpenStreetMap;
+- @fortawesome/fontawesome-svg-core;
+- @fortawesome/free-solid-svg-icons;
+- @fortawesome/react-fontawesome;
+- Axios;
+- Json-server;
 
 ## Images
 
 ### Homepage
 
-![Homepage](/image/sample.webp 'Homepage')
+![Homepage](/Ibaraki/ibaraki/src/imagensMD/image.png 'Homepage')
 
 ### Sobre nós
 
-![Sobre nós](/image/sample.webp 'Sobre nós')
+![Sobre nós](/Ibaraki/ibaraki/src/imagensMD/image%201.png 'Sobre nós')
 
 ### Menu
 
-![Menu](/image/sample.webp 'Menu')
+![Menu](/Ibaraki/ibaraki/src/imagensMD/image%202.png 'Menu')
 
 ### Menu detalhe 1
 
-![Menu detalhe](/image/sample.webp 'Menu detalhe')
+![Menu detalhe](/Ibaraki/ibaraki/src/imagensMD/image%203.png 'Menu detalhe')
 
-### Menu detalhe 2
-
-![Menu detalhe](/image/sample.webp 'Menu detalhe')
-
-### Menu detalhe 3
-
-![Menu detalhe](/image/sample.webp 'Menu detalhe')
+### Blog
+![Blog](/Ibaraki/ibaraki/src/imagensMD/image%204.png 'Blog')
 
 ### Reservas
 
-![Reservas](/image/sample.webp 'Reservas')
+![Reservas](/Ibaraki/ibaraki/src/imagensMD/image%205.png 'Reservas')
 
 ### Contactos
 
-![Contactos](/image/sample.webp 'Contactos')
+![Contactos](/Ibaraki/ibaraki/src/imagensMD/image%206.png 'Contactos')
 
 ## Melhorias Futuras
 
@@ -71,4 +67,7 @@ git clone
 npm install
 ```
 
-##
+## Correr no terminal
+> Para correr a aplicação localmente temos de inserir no terminal "npm start".
+Como o projeto utiliza um mock de base de dados, utilizamos o json-server, com esta finalidade. Assim, foi adcionado aos scripts do package.json o "npm run server" que corre o json-server na porta 5000.
+Para correr este projeto coloquem dois terminais em simultaneo, cada um com cada comando em cima especificado. 
