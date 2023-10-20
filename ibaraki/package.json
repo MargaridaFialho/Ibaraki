@@ -1,5 +1,6 @@
 {
 	"name": "ibaraki",
+	"homepage": "https://MargaridaFialho.github.io/ibaraki",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -25,6 +26,8 @@
 		"webpack-manifest-plugin": "^5.0.0"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"server": "json-server --watch src/data/db.json --port 5000",
 		"build": "react-scripts build",
