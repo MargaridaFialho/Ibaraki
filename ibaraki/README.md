@@ -31,7 +31,7 @@
 
 ### Homepage
 
-![Homepage](/Ibaraki/ibaraki/src/imagensMD/image.png)
+![Homepage](/src/imagensMD/image.png)
 
 ### Sobre nós
 
