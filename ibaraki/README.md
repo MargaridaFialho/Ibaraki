@@ -31,30 +31,30 @@
 
 ### Homepage
 
-![Homepage](/Ibaraki/ibaraki/src/imagensMD/image.png 'Homepage')
+![Homepage](/Ibaraki/ibaraki/src/imagensMD/image.png)
 
 ### Sobre nós
 
-![Sobre nós](/Ibaraki/ibaraki/src/imagensMD/image%201.png 'Sobre nós')
+![Sobre nós](/Ibaraki/ibaraki/src/imagensMD/image1.png)
 
 ### Menu
 
-![Menu](/Ibaraki/ibaraki/src/imagensMD/image%202.png 'Menu')
+![Menu](/Ibaraki/ibaraki/src/imagensMD/image2.png)
 
 ### Menu detalhe 1
 
-![Menu detalhe](/Ibaraki/ibaraki/src/imagensMD/image%203.png 'Menu detalhe')
+![Menu detalhe](/Ibaraki/ibaraki/src/imagensMD/image3.png)
 
 ### Blog
-![Blog](/Ibaraki/ibaraki/src/imagensMD/image%204.png 'Blog')
+![Blog](/Ibaraki/ibaraki/src/imagensMD/image4.png)
 
 ### Reservas
 
-![Reservas](/Ibaraki/ibaraki/src/imagensMD/image%205.png 'Reservas')
+![Reservas](/Ibaraki/ibaraki/src/imagensMD/image5.png)
 
 ### Contactos
 
-![Contactos](/Ibaraki/ibaraki/src/imagensMD/image%206.png 'Contactos')
+![Contactos](/Ibaraki/ibaraki/src/imagensMD/image6.png)
 
 ## Melhorias Futuras
 
