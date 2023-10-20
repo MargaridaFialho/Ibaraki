@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Ibaraki/ibaraki/static/css/main.fd24a40e.css",
+    "main.js": "/Ibaraki/ibaraki/static/js/main.154248b1.js",
+    "static/js/787.844aa5d5.chunk.js": "/Ibaraki/ibaraki/static/js/787.844aa5d5.chunk.js",
+    "static/media/carousel1.png": "/Ibaraki/ibaraki/static/media/carousel1.92d590cd4ed224a24499.png",
+    "static/media/carousel2.png": "/Ibaraki/ibaraki/static/media/carousel2.34a4787a0a76940bbd57.png",
+    "static/media/carousel3.png": "/Ibaraki/ibaraki/static/media/carousel3.a9d69b81668304313aa5.png",
+    "static/media/sushi1.png": "/Ibaraki/ibaraki/static/media/sushi1.a876879a28cf418e41fd.png",
+    "static/media/sushi3.png": "/Ibaraki/ibaraki/static/media/sushi3.1f5e65d921b1ca1a72cf.png",
+    "static/media/image9.png": "/Ibaraki/ibaraki/static/media/image9.1e7c678231ef522caa5f.png",
+    "static/media/image10.png": "/Ibaraki/ibaraki/static/media/image10.44fb90609a9985f62c37.png",
+    "static/media/Vollkorn-Medium.ttf": "/Ibaraki/ibaraki/static/media/Vollkorn-Medium.3cd9bef4e76b62e80643.ttf",
+    "static/media/Vollkorn-Regular.ttf": "/Ibaraki/ibaraki/static/media/Vollkorn-Regular.7c47f8710df53059d2d7.ttf",
+    "static/media/image8.png": "/Ibaraki/ibaraki/static/media/image8.86389f495db422e16ae7.png",
+    "static/media/Hatton500.otf": "/Ibaraki/ibaraki/static/media/Hatton500.13ce3b495a45d74b40c5.otf",
+    "static/media/Hatton700.otf": "/Ibaraki/ibaraki/static/media/Hatton700.df0e0417690738a36b77.otf",
+    "static/media/Hatton200.otf": "/Ibaraki/ibaraki/static/media/Hatton200.36dd90cec3d4fe830a2e.otf",
+    "static/media/instagram.svg": "/Ibaraki/ibaraki/static/media/instagram.8b5ea70eea4837939c76.svg",
+    "static/media/email.svg": "/Ibaraki/ibaraki/static/media/email.c8abb780f716e379d6df.svg",
+    "static/media/facebook.svg": "/Ibaraki/ibaraki/static/media/facebook.b207d0c4205bd9563148.svg",
+    "static/media/menu-icon.svg": "/Ibaraki/ibaraki/static/media/menu-icon.f201f9376bc4770c82a5.svg",
+    "index.html": "/Ibaraki/ibaraki/index.html",
+    "static/media/arrow-left.svg": "/Ibaraki/ibaraki/static/media/arrow-left.ecc2200fa3d646969a8b.svg",
+    "static/media/arrow-right.svg": "/Ibaraki/ibaraki/static/media/arrow-right.d68b1ec0d66982f8a14c.svg",
+    "main.fd24a40e.css.map": "/Ibaraki/ibaraki/static/css/main.fd24a40e.css.map",
+    "main.154248b1.js.map": "/Ibaraki/ibaraki/static/js/main.154248b1.js.map",
+    "787.844aa5d5.chunk.js.map": "/Ibaraki/ibaraki/static/js/787.844aa5d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd24a40e.css",
+    "static/js/main.154248b1.js"
+  ]
+}
