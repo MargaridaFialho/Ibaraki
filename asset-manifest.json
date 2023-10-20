@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ibaraki/static/css/main.4622186e.css",
-    "main.js": "/Ibaraki/static/js/main.6195079d.js",
+    "main.js": "/Ibaraki/static/js/main.4a095446.js",
     "static/js/787.844aa5d5.chunk.js": "/Ibaraki/static/js/787.844aa5d5.chunk.js",
     "static/media/carousel1.png": "/Ibaraki/static/media/carousel1.92d590cd4ed224a24499.png",
     "static/media/carousel2.png": "/Ibaraki/static/media/carousel2.34a4787a0a76940bbd57.png",
@@ -24,11 +24,11 @@
     "static/media/arrow-left.svg": "/Ibaraki/static/media/arrow-left.ecc2200fa3d646969a8b.svg",
     "static/media/arrow-right.svg": "/Ibaraki/static/media/arrow-right.d68b1ec0d66982f8a14c.svg",
     "main.4622186e.css.map": "/Ibaraki/static/css/main.4622186e.css.map",
-    "main.6195079d.js.map": "/Ibaraki/static/js/main.6195079d.js.map",
+    "main.4a095446.js.map": "/Ibaraki/static/js/main.4a095446.js.map",
     "787.844aa5d5.chunk.js.map": "/Ibaraki/static/js/787.844aa5d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4622186e.css",
-    "static/js/main.6195079d.js"
+    "static/js/main.4a095446.js"
   ]
 }
