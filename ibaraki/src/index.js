@@ -30,7 +30,7 @@ function App() {
 			<PostProvider>
 				<BrowserRouter basename='Ibaraki'>
 					<Routes>
-						<Route path='/' element={<Navigation />}>
+						<Route exact path='/' element={<Navigation />}>
 							<Route index element={<Homepage />} />
 							<Route path='sobre-nos' element={<SobreNos />} />
 							<Route path='menu' element={<Menu />} />
